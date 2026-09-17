@@ -1,59 +1,201 @@
-# My Portfolio
+# 💻 Chirag Sharma — Developer Portfolio
 
-Welcome to the source code for my personal portfolio project. This is a Node.js-based web application that showcases my projects and skills, featuring integrations with modern generative AI capabilities.
+A modern personal portfolio website showcasing my **software development skills, projects, technical expertise, and AI-integrated applications**.
 
-## 🚀 Features
-- **Frontend:** Clean and responsive user interface (`index.html`).
-- **Backend:** Robust server-side architecture built with [Express.js](https://expressjs.com/).
-- **AI Integration:** Implements artificial intelligence capabilities using the official Google Gen AI SDK (`@google/genai`) and OpenAI SDK (`openai`).
-- **Secure Configuration:** Environment variables are securely managed to protect API keys via `dotenv`.
+The portfolio is built with a lightweight frontend and a **Node.js server**, with environment variables used for secure configuration and AI/API integrations.
+
+---
+
+## 🚀 Overview
+
+This portfolio serves as a central platform to present my:
+
+* 💻 Software Development Projects
+* 🤖 AI/ML & AI-integrated Applications
+* 🧠 Technical Skills
+* 📚 Academic & Internship Experience
+* 🔗 GitHub Projects
+* 📬 Contact & Professional Information
+
+The project also includes a Node.js backend for handling server-side functionality and API integrations securely.
+
+---
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML5, CSS3, JavaScript, Image Assets (`myimage.png`)
-- **Backend:** Node.js, Express.js
-- **AI & APIs:** 
-  - Google Gemini API (`@google/genai`)
-  - OpenAI API (`openai`)
-  - Google Auth Library (`google-auth-library`)
-- **Utilities:** `node-fetch`, `body-parser`, `cookie`, `mime-types`
 
-## ⚙️ Installation & Setup
+### Frontend
 
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd "My porfolio"
-   ```
+* HTML5
+* CSS3
+* JavaScript
 
-2. **Install dependencies:**
-   Make sure you have Node.js installed, then run:
-   ```bash
-   npm install
-   ```
+### Backend
 
-3. **Environment Variables:**
-   Create a `.env` file in the root directory and add your API keys:
-   ```env
-   PORT=3000
-   GEMINI_API_KEY=your_google_genai_api_key
-   OPENAI_API_KEY=your_openai_api_key
-   ```
+* Node.js
+* Express.js
 
-4. **Run the application:**
-   ```bash
-   npm start
-   # or node index.js / server.js
-   ```
+### AI / API Integration
 
-5. **View in Browser:**
-   Open `http://localhost:3000` in your web browser.
+* AI API integration
+* Environment-based API configuration
+* Server-side API request handling
+
+### Tools & Development
+
+* Visual Studio Code
+* Git
+* GitHub
+* npm
+
+---
 
 ## 📂 Project Structure
-- `index.html` - The main entry point for the frontend portfolio.
-- `myimage.png` - Portfolio visual assets.
-- `node_modules/` - Backend dependencies including Express, Google GenAI, and OpenAI.
-- `.env` - Environment variable configuration.
-- `.gitignore` - Ignored files for version control.
+
+```text
+Portfolio/
+│
+├── .env
+├── .gitignore
+├── index.html
+├── myimage.png
+├── server.mjs
+├── package.json
+├── package-lock.json
+└── node_modules/
+    ├── @google/
+    ├── @protobufjs/
+    ├── @types/
+    ├── accepts/
+    ├── agent-base/
+    ├── base64-js/
+    ├── bignumber.js/
+    ├── body-parser/
+    ├── cookie/
+    ├── dotenv/
+    ├── express/
+    ├── google-auth-library/
+    ├── mime-db/
+    ├── node-fetch/
+    ├── openai/
+    └── ...
+```
+
+> **Note:** `node_modules/` is generated automatically by npm and should not be uploaded to GitHub.
+
+---
+
+## ✨ Key Features
+
+* Responsive personal portfolio interface
+* Professional project showcase
+* Skills and technology presentation
+* GitHub project integration
+* AI/API integration
+* Node.js and Express backend
+* Environment variable configuration using `.env`
+* Secure server-side API handling
+* Clean and minimal developer-focused design
+* Mobile-friendly layout
+
+---
+
+## ⚙️ Environment Configuration
+
+Create a `.env` file in the root directory and add the required environment variables.
+
+Example:
+
+```env
+API_KEY=your_api_key_here
+```
+
+### Important
+
+Never commit your `.env` file to GitHub.
+
+Your `.gitignore` should contain:
+
+```gitignore
+.env
+node_modules/
+```
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/your-portfolio.git
+```
+
+### 2. Navigate into the project
+
+```bash
+cd your-portfolio
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+This will automatically create the `node_modules` folder.
+
+### 4. Configure environment variables
+
+Create the `.env` file and add your required API keys and configuration values.
+
+---
+
+## ▶️ Run the Project
+
+Start the Node.js server using:
+
+```bash
+node --env-file=.env server.mjs
+```
+
+After starting the server, open the localhost URL shown in the terminal in your browser.
+
+---
+
+## 🔐 Security
+
+This project uses environment variables to prevent sensitive API credentials from being exposed directly in the source code.
+
+Sensitive files such as:
+
+```text
+.env
+```
+
+must remain local and should never be committed to the repository.
+
+---
+
+## 📈 Future Improvements
+
+Planned improvements may include:
+
+* Additional AI-powered portfolio features
+* More interactive project demonstrations
+* Improved animations and UI interactions
+* Backend API enhancements
+* Performance optimization
+* Additional developer-focused tools
+
+---
+
+
+## ⭐ Repository
+
+If you find this portfolio useful or interesting, consider giving the repository a ⭐.
+
+---
 
 ## 📄 License
-This project is open-source and available under the MIT License.
+
+This project is created for personal portfolio and educational purposes.
